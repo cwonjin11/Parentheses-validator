@@ -14,7 +14,7 @@ const showResult = () => {
     addButton.addEventListener("click", () => {
         let inputValue = inputText.value;
         //Here I modified my code to display the result with green or red color by using css
-        result.innerHTML =  isValid(inputValue) ? "<span class='color-green'>Valid Input</span>" : "<span class='color-red'>Invalid Input</span>"
+        result.innerHTML =  isValid(inputValue) ? "<span class='color-green'>Valid Input!</span>" : "<span class='color-red'>Invalid Input!</span>"
         document.getElementById("inputField").value = ""
     })
 }
